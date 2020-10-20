@@ -1,0 +1,6 @@
+  <ul>
+    <li *ngFor="let todo of todos; let i = index">
+      {{i + 1}} - {{todo.title}} <small>{{todo.date | date : 'fullDate'}}</small>
+    </li>
+  </ul>
+
