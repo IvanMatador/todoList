@@ -19,4 +19,8 @@ export class AppComponent {
     {id: 2, title: 'second string', complited: true, date: new Date()},
     {id: 3, title: 'last string', complited: false, date: new Date()}
   ]
+  onTogle(id: number){
+    const idx = this.todos.findIndex(t => t.id === id);
+    this.todos[idx].complited = !this.todos[idx].complited;
+  }
 }

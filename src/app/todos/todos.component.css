@@ -17,4 +17,9 @@ li {
   border-radius: 50%;
   background-color: red;
   margin-left: 20px;
+  float: right;
+}
+
+.done {
+  text-decoration: line-through;
 }
