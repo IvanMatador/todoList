@@ -21,9 +21,11 @@ export class TodoFormComponent implements OnInit {
       title: this.title,
       id: Date.now(),
       complited: false,
-      date: new Date()
+      date: Date.now()
     };
+    //console.table(todo)
     this.todosService.addTodo(todo);
+
     this.title = '';
   }
 }

@@ -8,4 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   appTitle = 'Todo Angular application';
 }
-export class Todo {}
+export class Todo {
+  complited: boolean;
+}

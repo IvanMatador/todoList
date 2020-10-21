@@ -2,9 +2,9 @@ import { Injectable } from '@angular/core';
 
 
 export interface Todo {
-  id: number
-  title: string
-  complited: boolean
+  id: number,
+  title: string,
+  complited: boolean,
   date: Date
 }
 
