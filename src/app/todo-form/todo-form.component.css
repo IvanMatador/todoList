@@ -1,0 +1,15 @@
+button {
+  width: 20%;
+  float: right;
+}
+
+input {
+  width: 75%;
+  float: left;
+  margin-right: 10px;
+  border: 2px solid grey;
+}
+
+.wrap {
+  width: 600px;
+}
