@@ -9,5 +9,8 @@ export class AppComponent {
   appTitle = 'Todo Angular application';
 }
 export class Todo {
-  complited: boolean;
+  title: string
+  complited: boolean
+  date: number
+  id: number
 }
