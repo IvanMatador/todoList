@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Todo } from '../app.component';
 import { TodosService } from '../shared/todos.service';
 
+
 @Component({
   selector: 'app-todos',
   templateUrl: './todos.component.html',
@@ -14,7 +15,6 @@ export class TodosComponent implements OnInit {
 constructor(private todosService: TodosService) { }
 
 onChange(id: number){
-    //this.onTogle.emit(id);
     this.todosService.onTogle(id);
   };
 
